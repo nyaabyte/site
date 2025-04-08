@@ -17,7 +17,7 @@ export const sampleProjects: Project[] = [
     imageUrl: '/src/assets/logo.png',
     tags: ['React', 'Typescript', 'Vite'],
     liveUrl: 'https://nyabyte.dev',
-    repoUrl: 'https://github.com/nyabyte/wurdle',
+    repoUrl: 'https://github.com/nyaabyte/wurdle', /** maybe change name to "site" instead of "wurdle" later? */
   },
 
   {
