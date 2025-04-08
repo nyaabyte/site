@@ -11,13 +11,13 @@ export interface Project {
 export const sampleProjects: Project[] = [
   {
     id: 1,
-    title: 'Placeholder 1',
+    title: 'NyaByte.dev',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, dignissimos! Fuga quam necessitatibus autem est doloribus vel, nisi enim, labore quae, obcaecati repudiandae vero saepe repellat eos minus quas rerum.',
-    imageUrl: 'https://images.wurdle.eu/burger.png',
-    tags: ['Example', 'Tag2'],
-    liveUrl: 'https://wurdle.eu',
-    repoUrl: 'https://wurdle.eu',
+      'This site! Pretty self explanatory. Site created by Wurdle, logo created by Tomcat! Feel free to suggest changes or make them yourself on the github :3',
+    imageUrl: '/src/assets/logo.png',
+    tags: ['React', 'Typescript', 'Vite'],
+    liveUrl: 'https://nyabyte.dev',
+    repoUrl: 'https://github.com/nyabyte/wurdle',
   },
 
   {
