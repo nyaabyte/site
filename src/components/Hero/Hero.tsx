@@ -1,6 +1,8 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import styles from './Hero.module.css';
+// Import the logo image
+import logoSrc from '/src/assets/logo.png'; // Adjust path if necessary
 
 const Hero: React.FC = () => {
   const handleScrollToProjects = () => {
@@ -17,10 +19,8 @@ const Hero: React.FC = () => {
       <div className={styles.overlay}></div>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Welcome to{' '}
-          <span className={styles.highlight}>
-            <span className={styles.white}>Nya</span>Byte
-          </span>
+          Welcome to
+          <img src={logoSrc} alt="NyaByte Logo" className={styles.heroLogo} />
         </h1>
         <div className={styles.typeAnimationWrapper}>
           <TypeAnimation

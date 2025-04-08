@@ -1,11 +1,12 @@
 import styles from './Header.module.css';
+import logoSrc from '/src/assets/logo.png';
 
 const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          Nya<span className={styles.logoByte}>Byte</span>
+          <img src={logoSrc} alt="NyaByte Logo" />
         </div>
         <nav className={styles.nav}>
           <ul>

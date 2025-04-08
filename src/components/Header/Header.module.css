@@ -17,14 +17,16 @@
 }
 
 .logo {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--text-light);
-  text-shadow: 0 0 8px var(--glow-color);
+  display: flex;
+  align-items: center;
 }
 
-.logoByte {
-  color: var(--primary-pink);
+.logo img {
+  height: 100px;
+  width: auto;
+  display: block;
+  margin-top: -15px;
+  margin-bottom: -35px;
 }
 
 .nav ul {

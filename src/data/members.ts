@@ -33,10 +33,10 @@ export const sampleMembers: Member[] = [
   {
     id: 2,
     name: 'tomcat',
-    pronouns: 'she/her',
+    pronouns: 'She/Her',
     role: 'Discord Bot Dev',
     imageUrl: 'https://cdn.tomcat.sh/images/pfp.png',
-    bio: 'i\'m a self-taught transfem discord bot dev who also does some other stuff, which you can see on my site.',
+    bio: "i'm a self-taught transfem discord bot dev who also does some other stuff, which you can see on my site.",
     socials: {
       github: 'https://git.tomcat.sh',
       email: 'mailto:hi@tomcat.sh',
@@ -44,7 +44,7 @@ export const sampleMembers: Member[] = [
     },
   },
   {
-    id: 2,
+    id: 3,
     name: 'Placeholder',
     role: 'Placeholder',
     imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
@@ -54,7 +54,7 @@ export const sampleMembers: Member[] = [
     },
   },
   {
-    id: 2,
+    id: 4,
     name: 'Placeholder',
     role: 'Placeholder',
     imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
@@ -64,7 +64,7 @@ export const sampleMembers: Member[] = [
     },
   },
   {
-    id: 2,
+    id: 5,
     name: 'Placeholder',
     role: 'Placeholder',
     imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
@@ -74,7 +74,7 @@ export const sampleMembers: Member[] = [
     },
   },
   {
-    id: 2,
+    id: 6,
     name: 'Placeholder',
     role: 'Placeholder',
     imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
@@ -84,7 +84,7 @@ export const sampleMembers: Member[] = [
     },
   },
   {
-    id: 2,
+    id: 7,
     name: 'Placeholder',
     role: 'Placeholder',
     imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
@@ -94,7 +94,7 @@ export const sampleMembers: Member[] = [
     },
   },
   {
-    id: 2,
+    id: 8,
     name: 'Placeholder',
     role: 'Placeholder',
     imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',

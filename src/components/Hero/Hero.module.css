@@ -1,5 +1,7 @@
 .hero {
-  min-height: calc(100vh - 60px);
+  min-height: calc(
+    100vh - 60px
+  ); /* Adjust 60px if your header height changed */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,16 +55,39 @@
   margin-bottom: 0.5rem;
   font-weight: 700;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  /* Ensure vertical alignment works well with the inline image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping if screen is too small */
+  gap: 0.5rem; /* Add space between "Welcome to" and logo */
 }
 
+/* Remove the old .highlight style */
+/*
 .highlight {
   color: var(--primary-pink);
   text-shadow: 0 0 10px var(--glow-color);
 }
+*/
+
+/* Add styles for the hero logo image */
+.heroLogo {
+  height: 10.5rem;
+  width: auto;
+  filter: drop-shadow(0 0 8px var(--primary-pink));
+
+  /* --- Add these lines --- */
+  position: relative;
+  /* Adjust these values as needed */
+  top: 10px; /* Move down slightly */
+  /* left: -2px; */ /* Example: Move left slightly */
+  /* --- End of added lines --- */
+}
 
 .typeAnimationWrapper {
   margin: 1.5rem 0;
-  min-height: 3em;
+  min-height: 3em; /* Ensure space for the animation */
 }
 
 .typeAnimationWrapper span[data-testid='react-type-animation-wrapper'] span {
@@ -96,7 +121,10 @@
   box-shadow: 0 8px 25px var(--glow-color);
 }
 
+/* Remove the unused .white style */
+/*
 .white {
   color: white;
   text-shadow: 0 0 10px white;
 }
+*/
