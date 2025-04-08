@@ -95,12 +95,15 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 8,
-    name: 'Placeholder',
-    role: 'Placeholder',
-    imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
-    bio: 'Placeholder',
+    name: 'Digi',
+    pronouns: 'she/her',
+    role: ':3 wrangler',
+    imageUrl: 'https://cdn.digitaldragon.dev/digi-pfp.jpg',
+    bio: "dragon-shaped robot, bad programmer, who is interested in technology, archiving, dragons",
     socials: {
-      github: 'https://github.com/',
+      github: 'https://github.com/DigitalDwagon',
+      email: 'mailto:nyabyte@digitaldragon.dev',
+      website: 'https://www.digitaldragon.dev',
     },
   },
 ];
