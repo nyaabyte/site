@@ -59,7 +59,7 @@ export const sampleMembers: Member[] = [
   {
     id: 4,
     name: "zastix",
-    role: "Reverse Engineer TEST",
+    role: "Reverse Engineer",
     pronouns: "she/her",
     imageUrl: "https://zastix.club/pfp.png",
     bio: '"horrible" reverse engineer, programmer, c++ and typescript enjoyer. silly trans girl. :3',
