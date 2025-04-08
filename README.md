@@ -1,3 +1,3 @@
 # NyaByte Site!
 
-My submission to the contest, wish me luck!
+The official NyaByte site! :3 
