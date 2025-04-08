@@ -30,12 +30,14 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 2,
-    name: 'Placeholder',
-    role: 'Placeholder',
-    imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
-    bio: 'Placeholder',
+    name: 'Tomcat',
+    role: 'Discord Bot Dev',
+    imageUrl: 'https://cdn.tomcat.sh/images/pfp.png',
+    bio: 'Transfem dumbass who writes JavaScript for fun.',
     socials: {
-      github: 'https://github.com/',
+      github: 'https://git.tomcat.sh',
+      email: 'mailto:hi@tomcat.sh',
+      website: 'https://www.tomcat.sh',
     },
   },
   {
