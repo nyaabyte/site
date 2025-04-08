@@ -1,29 +1,25 @@
 import React from 'react';
 import styles from './Members.module.css';
-import { sampleMembers, Member } from '../../data/members'; // Import data
-// Optional: Import icons if you have a library like react-icons
-// import { FaGithub, FaLinkedin, FaTwitter, FaGlobe } from 'react-icons/fa';
+import { sampleMembers, Member } from '../../data/members';
 
-// Helper component for social links (optional, but good practice)
 const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
-  // In a real app, you'd use actual icons here
   let iconChar = '?';
   let label = 'Link';
   switch (type) {
     case 'github':
-      iconChar = '💻'; // Placeholder
+      iconChar = '💻';
       label = 'GitHub';
-      // icon = <FaGithub />;
+
       break;
     case 'email':
-      iconChar = '✉️'; // Placeholder
+      iconChar = '✉️';
       label = 'Email';
-      // icon = <FaLinkedin />;
+
       break;
     case 'website':
-      iconChar = '🌐'; // Placeholder
+      iconChar = '🌐';
       label = 'Website';
-      // icon = <FaGlobe />;
+
       break;
   }
 
@@ -33,16 +29,15 @@ const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
       target="_blank"
       rel="noopener noreferrer"
       className={styles.socialLink}
-      aria-label={`${label} profile`} // Accessibility
-      title={label} // Tooltip
+      aria-label={`${label} profile`}
+      title={label}
     >
-      {/* Replace iconChar with actual icon component if available */}
       <span className={styles.iconPlaceholder}>{iconChar}</span>
     </a>
   );
 };
 
-const Members: React.FC = () => {
+const Members = () => {
   return (
     <section id="members" className={styles.members}>
       <div className={styles.container}>

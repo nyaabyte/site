@@ -15,11 +15,6 @@ export interface Member {
   socials: SocialLinks;
 }
 
-// Placeholder image service (replace with actual images later)
-const placeholderImage = (seed: string, size: number = 150) =>
-  `https://api.dicebear.com/8.x/pixel-art/svg?seed=${seed}&size=${size}`;
-// Alternative cute avatars: https://api.dicebear.com/8.x/miniavs/svg?seed=...
-
 export const sampleMembers: Member[] = [
   {
     id: 1,
