@@ -32,10 +32,11 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 2,
-    name: 'Tomcat',
+    name: 'tomcat',
+    pronouns: 'she/her',
     role: 'Discord Bot Dev',
     imageUrl: 'https://cdn.tomcat.sh/images/pfp.png',
-    bio: 'Transfem dumbass who writes JavaScript for fun.',
+    bio: 'i\'m a self-taught transfem discord bot dev who also does some other stuff, which you can see on my site.',
     socials: {
       github: 'https://git.tomcat.sh',
       email: 'mailto:hi@tomcat.sh',
