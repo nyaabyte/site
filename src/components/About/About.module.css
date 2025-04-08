@@ -1,0 +1,50 @@
+/* src/components/About/About.module.css */
+.about {
+  background-color: var(
+    --background-dark
+  ); /* Keep dark or slightly different */
+  border-top: 1px solid var(--background-light-tint);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block; /* Allows underline effect */
+}
+
+/* Underline effect for heading */
+.container h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-pink), var(--accent-purple));
+  border-radius: 2px;
+}
+
+.highlight {
+  color: var(--primary-pink);
+}
+
+.content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  opacity: 0.9;
+  max-width: 700px; /* Constrain text width for readability */
+  margin: 0 auto;
+}
+
+.content p {
+  margin-bottom: 1.5rem;
+}

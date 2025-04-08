@@ -1,0 +1,70 @@
+/* src/components/Header/Header.module.css */
+.header {
+  background-color: rgba(
+    26,
+    26,
+    29,
+    0.85
+  ); /* Slightly transparent dark background */
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  border-bottom: 1px solid var(--background-light-tint);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--text-light);
+  text-shadow: 0 0 8px var(--glow-color); /* Subtle glow */
+}
+
+.logoByte {
+  color: var(--primary-pink);
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav a {
+  color: var(--text-light);
+  font-weight: 500;
+  padding: 0.5rem 0;
+  position: relative;
+  overflow: hidden; /* Needed for the hover effect */
+}
+
+/* Cool Underline Hover Effect */
+.nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -50%; /* Start off-screen */
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--primary-pink));
+  opacity: 0%;
+  transition: left 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.nav a:hover {
+  color: var(--primary-pink); /* Change text color on hover */
+}
+
+.nav a:hover::after {
+  left: 0;
+  opacity: 100%;
+}
