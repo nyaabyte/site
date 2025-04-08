@@ -78,6 +78,7 @@ export const sampleMembers: Member[] = [
     bio: "porfesnil porgamming",
     socials: {
       github: "https://github.com/geodebreaker",
+      website: "https://geodebreaker.github.io/"
     },
   },
   {
