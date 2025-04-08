@@ -1,5 +1,5 @@
-import styles from './Projects.module.css';
-import { sampleProjects, Project } from '../../data/projects';
+import styles from "./Projects.module.css";
+import { sampleProjects, Project } from "../../data/projects";
 
 const Projects = () => {
   return (
@@ -8,7 +8,7 @@ const Projects = () => {
         <h2>
           Our <span className={styles.highlight}>Creations</span>
         </h2>
-        <p className={styles.intro}>Cool shit by cool guys</p>
+        <p className={styles.intro}>Cool shit by cool people</p>
         <div className={styles.grid}>
           {sampleProjects.map((project: Project) => (
             <div key={project.id} className={styles.card}>
