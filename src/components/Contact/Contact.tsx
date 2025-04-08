@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Contact.module.css';
 
 const Contact: React.FC = () => {
-  const githubLink = 'https://github.com/nyabyte';
+  const githubLink = 'https://github.com/nyaabyte';
   const emailAddress = 'contact@nyabyte.dev';
   return (
     <section id="contact" className={styles.contact}>
