@@ -58,12 +58,15 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 4,
-    name: "Placeholder",
+    name: "zastix",
     role: "Placeholder",
-    imageUrl: "https://images.wurdle.eu/wurdleturtle.png",
-    bio: "Placeholder",
+    pronouns: "she/her",
+    imageUrl: "https://zastix.club/pfp.png",
+    bio: '"horrible" reverse engineer, programmer, c++ and typescript enjoyer. silly trans girl. :3',
     socials: {
-      github: "https://github.com/",
+      github: "https://github.com/zastlx",
+      website: "https://zastix.club",
+      email: "mailto:zastix@zastix.club",
     },
   },
   {
