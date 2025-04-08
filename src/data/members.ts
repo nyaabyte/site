@@ -45,12 +45,15 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 3,
-    name: 'Placeholder',
-    role: 'Placeholder',
+    name: 'Lycanea',
+    pronouns: 'Any/All',
+    role: 'Emotional support',
     imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
     bio: 'Placeholder',
     socials: {
       github: 'https://github.com/',
+      website: 'https://lycanea.dev/',
+      email: 'mailto:lyca@nyabyte.dev',
     },
   },
   {
