@@ -1,0 +1,142 @@
+/* src/components/Members/Members.module.css */
+.members {
+  background-color: var(--background-dark);
+  padding: 4rem 2rem;
+  border-top: 1px solid var(--background-light-tint);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
+}
+
+/* Underline effect for heading */
+.container h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-pink), var(--accent-purple));
+  border-radius: 2px;
+}
+
+.highlight {
+  color: var(--primary-pink);
+}
+
+.intro {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  opacity: 0.8;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  /* Adjust minmax for desired card size */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2.5rem; /* Slightly larger gap */
+  text-align: left;
+}
+
+.card {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.04),
+    rgba(255, 255, 255, 0.08)
+  );
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid var(--background-light-tint);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items like image */
+  padding: 2rem 1.5rem 1.5rem; /* More top padding */
+  text-align: center; /* Center text inside card */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 35px var(--glow-color);
+  border-color: var(--secondary-pink);
+}
+
+.cardImage {
+  width: 120px; /* Size of the avatar */
+  height: 120px;
+  border-radius: 50%; /* Circular images */
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+  border: 3px solid var(--secondary-pink); /* Pink border around avatar */
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.5); /* Glow for image */
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1; /* Allow content to grow */
+}
+
+.cardName {
+  font-size: 1.4rem;
+  color: var(--text-light);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.cardRole {
+  font-size: 0.95rem;
+  color: var(--primary-pink);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.cardBio {
+  font-size: 0.9rem;
+  color: var(--text-light);
+  opacity: 0.8;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex-grow: 1; /* Push socials down */
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto; /* Push to bottom */
+}
+
+.socialLink {
+  color: var(--text-light);
+  opacity: 0.7;
+  font-size: 1.5rem; /* Adjust if using real icons */
+  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.socialLink:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  color: var(--primary-pink); /* Highlight on hover */
+}
+
+/* Placeholder styling - remove if using real icons */
+.iconPlaceholder {
+  display: inline-block;
+}
