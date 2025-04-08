@@ -1,14 +1,14 @@
-import React from 'react';
-import { TypeAnimation } from 'react-type-animation';
-import styles from './Hero.module.css';
+import React from "react";
+import { TypeAnimation } from "react-type-animation";
+import styles from "./Hero.module.css";
 // Import the logo image
-import logoSrc from '/src/assets/logo.png'; // Adjust path if necessary
+import logoSrc from "/src/assets/logo.png"; // Adjust path if necessary
 
 const Hero: React.FC = () => {
   const handleScrollToProjects = () => {
-    const projectsSection = document.getElementById('projects');
+    const projectsSection = document.getElementById("projects");
     if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
     } else {
       console.warn("Element with id 'projects' not found.");
     }
@@ -38,13 +38,13 @@ const Hero: React.FC = () => {
             cursor={true}
             repeat={Infinity}
             style={{
-              fontSize: '2em',
-              display: 'inline-block',
-              fontFamily: 'var(--font-code)',
+              fontSize: "2em",
+              display: "inline-block",
+              fontFamily: "var(--font-code)",
             }}
           />
         </div>
-        <p className={styles.subtitle}>Just some silly guys</p>
+        <p className={styles.subtitle}>Just some silly people</p>
         <button onClick={handleScrollToProjects} className={styles.ctaButton}>
           Explore Projects
         </button>
