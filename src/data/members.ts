@@ -83,12 +83,13 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 6,
-    name: "Placeholder",
-    role: "Placeholder",
-    imageUrl: "https://images.wurdle.eu/wurdleturtle.png",
-    bio: "Placeholder",
+    name: "hanna",
+    pronouns: "she/her",
+    role: "Reinventor of Wheels",
+    imageUrl: "https://cdn.nyabyte.dev/hannah.png",
+    bio: "idiot girl obsessed with low level programming and binary exploitation",
     socials: {
-      github: "https://github.com/",
+      github: "https://github.com/exotium",
     },
   },
   {
