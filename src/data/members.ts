@@ -9,6 +9,7 @@ export interface SocialLinks {
 export interface Member {
   id: number;
   name: string;
+  pronouns?: string;
   role: string;
   imageUrl: string; // Using placeholder images for now
   bio: string;
@@ -19,6 +20,7 @@ export const sampleMembers: Member[] = [
   {
     id: 1,
     name: 'Wurdle',
+    pronouns: 'He/Him',
     role: 'Frontend Design',
     imageUrl: 'https://images.wurdle.eu/wurdleturtle.png',
     bio: 'Little bit of a dumbass, just like to have some fun. My dms are always open if anyone wants to talk!',

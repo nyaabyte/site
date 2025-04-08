@@ -56,7 +56,9 @@ const Members = () => {
               />
               <div className={styles.cardContent}>
                 <h3 className={styles.cardName}>{member.name}</h3>
-                <p className={styles.cardRole}>{member.role}</p>
+                <p className={styles.cardRole}>
+                  {member.role} ● {member.pronouns}
+                </p>
                 <p className={styles.cardBio}>{member.bio}</p>
                 <div className={styles.socials}>
                   {member.socials.github && (
