@@ -71,12 +71,13 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 5,
-    name: "Placeholder",
-    role: "Placeholder",
-    imageUrl: "https://images.wurdle.eu/wurdleturtle.png",
-    bio: "Placeholder",
+    name: "geodebreaker",
+    pronouns: "he/him",
+    role: "progmarmin",
+    imageUrl: "https://evrtdg.com/src/emoji/goober.jpg",
+    bio: "porfesnil porgamming",
     socials: {
-      github: "https://github.com/",
+      github: "https://github.com/geodebreaker",
     },
   },
   {
