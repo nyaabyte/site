@@ -1,4 +1,3 @@
-// src/components/Header/Header.tsx
 import styles from './Header.module.css';
 
 const Header = () => {
@@ -14,10 +13,10 @@ const Header = () => {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#projects">Projects</a> {/* Link to future section */}
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#contact">Contacts</a> {/* Link to future section */}
+              <a href="#contact">Contacts</a>
             </li>
           </ul>
         </nav>

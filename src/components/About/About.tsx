@@ -20,7 +20,6 @@ const About = () => {
             doloremque recusandae quidem molestiae iste, veritatis nobis hic
             earum tempora reiciendis, alias nostrum pariatur!
           </p>
-          {/* Add more details, maybe images or icons */}
         </div>
       </div>
     </section>

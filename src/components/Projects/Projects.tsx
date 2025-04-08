@@ -1,5 +1,5 @@
 import styles from './Projects.module.css';
-import { sampleProjects, Project } from '../../data/projects'; // Import data
+import { sampleProjects, Project } from '../../data/projects';
 
 const Projects = () => {
   return (
@@ -46,7 +46,7 @@ const Projects = () => {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`${styles.linkButton} ${styles.liveLink}`} // Style live link differently
+                      className={`${styles.linkButton} ${styles.liveLink}`}
                     >
                       View
                     </a>

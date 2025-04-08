@@ -1,4 +1,3 @@
-// src/components/Hero/Hero.tsx
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import styles from './Hero.module.css';
@@ -9,13 +8,13 @@ const Hero: React.FC = () => {
     if (projectsSection) {
       projectsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } else {
-      console.warn("Element with id 'projects' not found."); // Good practice warning
+      console.warn("Element with id 'projects' not found.");
     }
   };
 
   return (
     <section className={styles.hero}>
-      <div className={styles.overlay}></div> {/* For background effect */}
+      <div className={styles.overlay}></div>
       <div className={styles.content}>
         <h1 className={styles.title}>
           Welcome to{' '}
@@ -41,7 +40,7 @@ const Hero: React.FC = () => {
             style={{
               fontSize: '2em',
               display: 'inline-block',
-              fontFamily: 'var(--font-code)', // Use code font
+              fontFamily: 'var(--font-code)',
             }}
           />
         </div>

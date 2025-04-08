@@ -1,16 +1,10 @@
-/* src/components/Header/Header.module.css */
 .header {
-  background-color: rgba(
-    26,
-    26,
-    29,
-    0.85
-  ); /* Slightly transparent dark background */
+  background-color: rgba(26, 26, 29, 0.85);
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
   z-index: 100;
-  backdrop-filter: blur(10px); /* Frosted glass effect */
+  backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--background-light-tint);
 }
 
@@ -26,7 +20,7 @@
   font-size: 1.8rem;
   font-weight: 700;
   color: var(--text-light);
-  text-shadow: 0 0 8px var(--glow-color); /* Subtle glow */
+  text-shadow: 0 0 8px var(--glow-color);
 }
 
 .logoByte {
@@ -44,15 +38,14 @@
   font-weight: 500;
   padding: 0.5rem 0;
   position: relative;
-  overflow: hidden; /* Needed for the hover effect */
+  overflow: hidden;
 }
 
-/* Cool Underline Hover Effect */
 .nav a::after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: -50%; /* Start off-screen */
+  left: -50%;
   width: 100%;
   height: 2px;
   background: linear-gradient(90deg, var(--accent-blue), var(--primary-pink));
@@ -61,7 +54,7 @@
 }
 
 .nav a:hover {
-  color: var(--primary-pink); /* Change text color on hover */
+  color: var(--primary-pink);
 }
 
 .nav a:hover::after {

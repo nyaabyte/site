@@ -1,13 +1,11 @@
-// src/data/projects.ts
-
 export interface Project {
   id: number;
   title: string;
   description: string;
-  imageUrl?: string; // Optional image URL
+  imageUrl?: string;
   tags: string[];
-  repoUrl?: string; // Link to GitHub/GitLab etc.
-  liveUrl?: string; // Link to live demo
+  repoUrl?: string;
+  liveUrl?: string;
 }
 
 export const sampleProjects: Project[] = [
@@ -16,10 +14,10 @@ export const sampleProjects: Project[] = [
     title: 'Placeholder 1',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, dignissimos! Fuga quam necessitatibus autem est doloribus vel, nisi enim, labore quae, obcaecati repudiandae vero saepe repellat eos minus quas rerum.',
-    imageUrl: 'https://images.wurdle.eu/burger.png', // Example path - create this folder/image
+    imageUrl: 'https://images.wurdle.eu/burger.png',
     tags: ['Example', 'Tag2'],
     liveUrl: 'https://wurdle.eu',
-    repoUrl: 'https://wurdle.eu', // Example link
+    repoUrl: 'https://wurdle.eu',
   },
 
   {

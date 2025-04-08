@@ -4,28 +4,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 
 :root {
-  --primary-pink: #ff69b4; /* Hot Pink */
-  --secondary-pink: #ffb6c1; /* Light Pink */
-  --accent-purple: #9370db; /* Medium Purple */
-  --accent-blue: #87ceeb; /* Sky Blue */
+  --primary-pink: #ff69b4;
+  --secondary-pink: #ffb6c1;
+  --accent-purple: #9370db;
+  --accent-blue: #87ceeb;
   --text-light: #f8f8f8;
   --text-dark: #2a2a2a;
   --background-dark: #1a1a1d;
   --background-light-tint: rgba(255, 255, 255, 0.05);
-  --font-primary: 'Itim', cursive; /* Example font */
-  --font-code: 'Fira Code', 'Courier New', monospace; /* Example code font */
+  --font-primary: 'Itim', cursive;
+  --font-code: 'Fira Code', 'Courier New', monospace;
 
-  /* Cool Effect Variables */
-  --glow-color: rgba(
-    255,
-    105,
-    180,
-    0.7
-  ); /* Glow effect based on primary pink */
+  --glow-color: rgba(255, 105, 180, 0.7);
   --gradient-angle: 135deg;
 }
 
-/* Basic Reset */
 *,
 *::before,
 *::after {
@@ -39,7 +32,7 @@ body {
   background-color: var(--background-dark);
   color: var(--text-light);
   line-height: 1.6;
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow-x: hidden;
 }
 
 h1,
@@ -50,7 +43,7 @@ h5,
 h6 {
   line-height: 1.2;
   margin-bottom: 1rem;
-  color: var(--primary-pink); /* Make headings stand out */
+  color: var(--primary-pink);
 }
 
 a {
@@ -76,5 +69,5 @@ button {
 
 section {
   padding: 4rem 2rem;
-  overflow: hidden; /* Contain elements within sections */
+  overflow: hidden;
 }

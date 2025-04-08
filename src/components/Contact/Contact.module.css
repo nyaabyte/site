@@ -1,33 +1,31 @@
-/* src/components/Contact/Contact.module.css */
 .contact {
   background: linear-gradient(
     var(--gradient-angle),
     var(--background-dark),
-    #2a1a2d /* Slightly purplish dark */
+    #2a1a2d
   );
-  padding: 5rem 2rem 6rem; /* Extra bottom padding */
+  padding: 5rem 2rem 6rem;
   border-top: 1px solid var(--background-light-tint);
-  position: relative; /* For background shapes */
-  overflow: hidden; /* Contain shapes */
+  position: relative;
+  overflow: hidden;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
-  position: relative; /* Ensure content is above shapes */
+  position: relative;
   z-index: 2;
 }
 
 .container h2 {
-  font-size: 2.8rem; /* Slightly larger */
+  font-size: 2.8rem;
   margin-bottom: 1rem;
   position: relative;
   display: inline-block;
-  color: var(--text-light); /* White heading */
+  color: var(--text-light);
 }
 
-/* Underline effect for heading */
 .container h2::after {
   content: '';
   position: absolute;
@@ -74,12 +72,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative; /* For pseudo-elements */
-  overflow: hidden; /* For hover effect */
+  position: relative;
+  overflow: hidden;
 }
 
 .contactCard::before {
-  /* Subtle gradient border effect on hover */
   content: '';
   position: absolute;
   top: 0;
@@ -87,7 +84,7 @@
   right: 0;
   bottom: 0;
   border-radius: 12px;
-  padding: 2px; /* Thickness of the border */
+  padding: 2px;
   background: linear-gradient(
     var(--gradient-angle),
     var(--primary-pink),
@@ -104,7 +101,7 @@
 .contactCard:hover {
   transform: translateY(-8px);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  border-color: transparent; /* Hide original border */
+  border-color: transparent;
 }
 
 .contactCard:hover::before {
@@ -112,21 +109,20 @@
 }
 
 .iconPlaceholder {
-  font-size: 2.5rem; /* Adjust if using real icons */
+  font-size: 2.5rem;
   margin-bottom: 1rem;
-  height: 40px; /* Match potential icon size */
+  height: 40px;
   line-height: 40px;
 }
 
-/* Specific card icon colors (optional) */
 .discord .iconPlaceholder {
-  color: #7289da; /* Discord purple */
+  color: #7289da;
 }
 .github .iconPlaceholder {
-  color: #ffffff; /* GitHub white */
+  color: #ffffff;
 }
 .email .iconPlaceholder {
-  color: var(--accent-blue); /* Use theme color */
+  color: var(--accent-blue);
 }
 
 .contactCard h3 {
@@ -140,13 +136,13 @@
   opacity: 0.8;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  flex-grow: 1; /* Push CTA down */
+  flex-grow: 1;
 }
 
 .cta {
   font-weight: 600;
   color: var(--primary-pink);
-  margin-top: auto; /* Pushes to bottom */
+  margin-top: auto;
   transition: letter-spacing 0.3s ease;
 }
 
@@ -155,7 +151,6 @@
   text-decoration: underline;
 }
 
-/* Background Shapes Animation */
 .backgroundShapes {
   position: absolute;
   top: 0;
@@ -169,7 +164,7 @@
   position: absolute;
   border-radius: 50%;
   opacity: 0.1;
-  filter: blur(30px); /* Soft blur */
+  filter: blur(30px);
 }
 
 .shape1 {

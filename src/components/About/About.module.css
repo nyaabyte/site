@@ -1,8 +1,5 @@
-/* src/components/About/About.module.css */
 .about {
-  background-color: var(
-    --background-dark
-  ); /* Keep dark or slightly different */
+  background-color: var(--background-dark);
   border-top: 1px solid var(--background-light-tint);
 }
 
@@ -16,10 +13,9 @@
   font-size: 2.5rem;
   margin-bottom: 2rem;
   position: relative;
-  display: inline-block; /* Allows underline effect */
+  display: inline-block;
 }
 
-/* Underline effect for heading */
 .container h2::after {
   content: '';
   position: absolute;
@@ -41,7 +37,7 @@
   line-height: 1.8;
   color: var(--text-light);
   opacity: 0.9;
-  max-width: 700px; /* Constrain text width for readability */
+  max-width: 700px;
   margin: 0 auto;
 }
 

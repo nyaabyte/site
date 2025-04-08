@@ -1,30 +1,27 @@
-/* src/components/Hero/Hero.module.css */
 .hero {
-  min-height: calc(100vh - 60px); /* Adjust based on header height */
+  min-height: calc(100vh - 60px);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  position: relative; /* Needed for overlay */
+  position: relative;
   background: linear-gradient(
       var(--gradient-angle),
       rgba(26, 26, 29, 0.8),
       rgba(42, 42, 45, 0.9)
     ),
-    /* Animated Gradient Background */
-      linear-gradient(
-        var(--gradient-angle),
-        var(--primary-pink),
-        var(--accent-purple),
-        var(--accent-blue)
-      );
-  background-size: 200% 200%; /* For animation */
+    linear-gradient(
+      var(--gradient-angle),
+      var(--primary-pink),
+      var(--accent-purple),
+      var(--accent-blue)
+    );
+  background-size: 200% 200%;
   animation: gradientShift 15s ease infinite;
   color: var(--text-light);
-  padding: 4rem 2rem; /* Override default section padding if needed */
+  padding: 4rem 2rem;
 }
 
-/* Animated Gradient Keyframes */
 @keyframes gradientShift {
   0% {
     background-position: 0% 50%;
@@ -36,22 +33,17 @@
     background-position: 0% 50%;
   }
 }
-
-/* Optional overlay for contrast or effects */
 .overlay {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  /* Example: Add a subtle pattern or noise */
-  /* background-image: url('/path/to/noise.png'); */
-  /* opacity: 0.05; */
   z-index: 1;
 }
 
 .content {
-  position: relative; /* Ensure content is above overlay */
+  position: relative;
   z-index: 2;
   max-width: 800px;
 }
@@ -70,10 +62,9 @@
 
 .typeAnimationWrapper {
   margin: 1.5rem 0;
-  min-height: 3em; /* Prevent layout shift during typing */
+  min-height: 3em;
 }
 
-/* Style the cursor from react-type-animation */
 .typeAnimationWrapper span[data-testid='react-type-animation-wrapper'] span {
   color: var(--secondary-pink);
 }
@@ -95,7 +86,7 @@
   font-weight: 600;
   padding: 1rem 2.5rem;
   font-size: 1.1rem;
-  border-radius: 50px; /* Pill shape */
+  border-radius: 50px;
   box-shadow: 0 5px 15px var(--glow-color);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
