@@ -78,7 +78,7 @@ export const sampleMembers: Member[] = [
     bio: "porfesnil porgamming",
     socials: {
       github: "https://github.com/geodebreaker",
-      website: "https://geodebreaker.github.io/"
+      website: "https://geodebreaker.github.io/",
     },
   },
   {
@@ -94,16 +94,6 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 7,
-    name: "Placeholder",
-    role: "Placeholder",
-    imageUrl: "https://images.wurdle.eu/wurdleturtle.png",
-    bio: "Placeholder",
-    socials: {
-      github: "https://github.com/",
-    },
-  },
-  {
-    id: 8,
     name: "Digi",
     pronouns: "she/her",
     role: ":3 wrangler",

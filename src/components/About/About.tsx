@@ -1,4 +1,4 @@
-import styles from './About.module.css';
+import styles from "./About.module.css";
 
 const About = () => {
   return (
@@ -9,16 +9,13 @@ const About = () => {
         </h2>
         <div className={styles.content}>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
-            earum, officiis natus error enim minus fugiat, quaerat, voluptates
-            perferendis sed perspiciatis tempore officia? Hic quaerat dolorum
-            rerum distinctio nulla doloremque.
+            We are a group of silly people who like making random coding
+            projects for fun. We started making these silly things in April of
+            2025, and met through botting a site called "Youtube Draws".
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt,
-            itaque. Exercitationem facere, voluptas quae explicabo eaque
-            doloremque recusandae quidem molestiae iste, veritatis nobis hic
-            earum tempora reiciendis, alias nostrum pariatur!
+            So far, we have made this website together and are currently working
+            on creating a new social media from scratch.
           </p>
         </div>
       </div>
