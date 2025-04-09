@@ -126,7 +126,7 @@ export const sampleMembers: Member[] = [
     imageUrl: "https://cdn.nyabyte.dev/Altie.png",
     bio: "I have no fucking clue how to code, but I'm here. I guess I can game well and draw decentish so theres that :3",
     socials: {
-
+website: "https://dotle31.com",
     },
   },
 ];
