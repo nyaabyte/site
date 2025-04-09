@@ -50,7 +50,7 @@ export const sampleMembers: Member[] = [
     pronouns: "Any/All",
     role: "Emotional support",
     imageUrl: "https://lycanea.dev/avatar.png",
-    bio: "the silly backend nerd thats all they are good for",
+    bio: "the silly backend nerd, (very cute - zas)",
     socials: {
       github: "https://github.com/lycanea",
       website: "https://lycanea.dev/",
