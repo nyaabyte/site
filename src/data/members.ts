@@ -111,14 +111,17 @@ export const sampleMembers: Member[] = [
     name: "dotle31",
     pronouns: "she/they",
     role: "silly catgirl go meow all over you",
-    imageUrl: "https://cdn.discordapp.com/avatars/1197702222893547590/63e5a4fbec14f9af767ad2fff1e72088.png?size=1024&format=png",
+    imageUrl:
+      "https://cdn.discordapp.com/avatars/1197702222893547590/63e5a4fbec14f9af767ad2fff1e72088.png?size=1024&format=png",
     bio: "bad girl, silly, stupid and cant write goog code",
     socials: {
       github: "https://github.com/doyle31",
       website: "https://dotle31.com",
-      signal: "https://signal.me/#eu/1Z80joyD9Vh7LI1m41BSjvelAf-nyWkq_5FC62P16Mtud86BEn9NB7ceq5ZP09Xw",
+      signal:
+        "https://signal.me/#eu/1Z80joyD9Vh7LI1m41BSjvelAf-nyWkq_5FC62P16Mtud86BEn9NB7ceq5ZP09Xw",
     },
-    {
+  },
+  {
     id: 9,
     name: "AltiePie",
     pronouns: "She/Her",
@@ -126,7 +129,7 @@ export const sampleMembers: Member[] = [
     imageUrl: "https://cdn.nyabyte.dev/Altie.png",
     bio: "I have no fucking clue how to code, but I'm here. I guess I can game well and draw decentish so theres that :3",
     socials: {
-website: "https://dotle31.com",
+      website: "https://dotle31.com",
     },
   },
 ];
