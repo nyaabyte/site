@@ -30,7 +30,7 @@ const Header = () => {
       className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}
     >
       <div className={styles.container}>
-        <Link to="top" smooth={true} duration={500} class={styles.link}>
+        <Link to="top" smooth={true} duration={500} className={styles.link}>
           <div className={styles.logo}>
             <img src={logoSrc} alt="NyaByte Logo" />
           </div>
@@ -43,7 +43,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 offset={-60}
-                class={styles.link}
+                className={styles.link}
               >
                 About
               </Link>
@@ -54,7 +54,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 offset={-60}
-                class={styles.link}
+                className={styles.link}
               >
                 Projects
               </Link>
@@ -65,7 +65,7 @@ const Header = () => {
                 smooth={true}
                 duration={500}
                 offset={-60}
-                class={styles.link}
+                className={styles.link}
               >
                 Members
               </Link>
@@ -75,7 +75,7 @@ const Header = () => {
                 to="contact"
                 smooth={true}
                 duration={500}
-                class={styles.link}
+                className={styles.link}
               >
                 Contacts
               </Link>
