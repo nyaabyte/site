@@ -25,7 +25,7 @@ export const sampleProjects: Project[] = [
     description:
       "A new social media service built from the ground up for web and mobile.",
     imageUrl: "https://cdn.nyabyte.dev/nyabyte.png",
-    tags: ["TypeScript (bad)", "Expo", "React Native (bad)", "Svelte (good)", "MongoDB", "JavaScript (good)"],
+    tags: ["TypeScript", "Expo", "React Native", "Svelte", "MongoDB"],
     repoUrl: "https://github.com/nyaabyte/meownet",
   },
 ];
