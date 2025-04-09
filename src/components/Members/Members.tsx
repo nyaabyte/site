@@ -21,6 +21,11 @@ const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
       label = 'Website';
 
       break;
+    case 'signal':
+      iconChar = '📱';
+      label = 'Signal';
+
+      break;
   }
 
   return (
