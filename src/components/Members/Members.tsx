@@ -22,7 +22,7 @@ const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
 
       break;
     case 'signal':
-      iconChar = '📱';
+      iconChar = '💬';
       label = 'Signal';
 
       break;
