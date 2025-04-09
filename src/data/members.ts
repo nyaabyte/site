@@ -118,7 +118,8 @@ export const sampleMembers: Member[] = [
       website: "https://dotle31.com",
       signal: "https://signal.me/#eu/1Z80joyD9Vh7LI1m41BSjvelAf-nyWkq_5FC62P16Mtud86BEn9NB7ceq5ZP09Xw",
     },
-    {
+  },
+  {
     id: 9,
     name: "AltiePie",
     pronouns: "She/Her",
@@ -126,7 +127,7 @@ export const sampleMembers: Member[] = [
     imageUrl: "https://cdn.nyabyte.dev/Altie.png",
     bio: "I have no fucking clue how to code, but I'm here. I guess I can game well and draw decentish so theres that :3",
     socials: {
-website: "https://dotle31.com",
+      website: "https://dotle31.com",
     },
   },
 ];
