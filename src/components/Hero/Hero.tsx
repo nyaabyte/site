@@ -1,18 +1,19 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import styles from "./Hero.module.css";
+import { Link } from "react-scroll";
 // Import the logo image
 import logoSrc from "/src/assets/logo.png"; // Adjust path if necessary
 
 const Hero: React.FC = () => {
-  const handleScrollToProjects = () => {
-    const projectsSection = document.getElementById("projects");
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
-    } else {
-      console.warn("Element with id 'projects' not found.");
-    }
-  };
+  // const handleScrollToProjects = () => {
+  //   const projectsSection = document.getElementById("projects");
+  //   if (projectsSection) {
+  //     projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  //   } else {
+  //     console.warn("Element with id 'projects' not found.");
+  //   }1
+  // };
 
   return (
     <section id="top" className={styles.hero}>
@@ -103,9 +104,9 @@ const Hero: React.FC = () => {
         <p className={styles.subtitle}>
           We are just some silly people doing silly things
         </p>
-        <button onClick={handleScrollToProjects} className={styles.ctaButton}>
-          Explore Projects
-        </button>
+        <Link to="projects" smooth={true} duration={500} offset={-60}>
+          <button className={styles.ctaButton}>Explore Projects</button>
+        </Link>
       </div>
     </section>
   );
