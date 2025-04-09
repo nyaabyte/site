@@ -94,7 +94,10 @@ const Members = () => {
                 <p className={styles.cardBio}>{member.bio}</p>
                 <div className={styles.socials}>
                   {member.socials.github && (
-                    <SocialIcon type="github" url={member.socials.github} />
+                    <SocialIconImage
+                      type="github"
+                      url={member.socials.github}
+                    />
                   )}
                   {member.socials.email && (
                     <SocialIcon type="email" url={member.socials.email} />
