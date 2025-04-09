@@ -1,29 +1,28 @@
-import React from 'react';
-import styles from './Members.module.css';
-import { sampleMembers, type Member } from '../../data/members';
+import React from "react";
+import styles from "./Members.module.css";
+import { sampleMembers, type Member } from "../../data/members";
+
+// Icons!
+import PlaceholderLogo from "/src/assets/icons/none.svg";
+import GithubLogo from "/src/assets/icons/gh.svg";
 
 const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
-  let iconChar = '?';
-  let label = 'Link';
+  let iconChar = "?";
+  let label = "Link";
   switch (type) {
-    case 'github':
-      iconChar = '💻';
-      label = 'GitHub';
+    case "email":
+      iconChar = "✉️";
+      label = "Email";
 
       break;
-    case 'email':
-      iconChar = '✉️';
-      label = 'Email';
+    case "website":
+      iconChar = "🌐";
+      label = "Website";
 
       break;
-    case 'website':
-      iconChar = '🌐';
-      label = 'Website';
-
-      break;
-    case 'signal':
-      iconChar = '💬';
-      label = 'Signal';
+    case "signal":
+      iconChar = "💬";
+      label = "Signal";
 
       break;
   }
@@ -38,6 +37,34 @@ const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
       title={label}
     >
       <span className={styles.iconPlaceholder}>{iconChar}</span>
+    </a>
+  );
+};
+
+const SocialIconImage: React.FC<{ type: string; url: string }> = ({
+  type,
+  url,
+}) => {
+  let iconUrl = PlaceholderLogo;
+  let label = "Link";
+  switch (type) {
+    case "github":
+      iconUrl = GithubLogo;
+      label = "GitHub";
+
+      break;
+  }
+
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.socialLink}
+      aria-label={`${label} profile`}
+      title={label}
+    >
+      <img className={styles.iconPlaceholder} src={iconUrl} />
     </a>
   );
 };
@@ -178,7 +205,7 @@ const Member = (props: {
       <p className={styles.cardBio}>{bio}</p>
       <div className={styles.socials}>
         {socials.github && (
-          <SocialIcon type="github" url={socials.github} />
+          <SocialIconImage type="github" url={socials.github} />
         )}
         {socials.email && (
           <SocialIcon type="email" url={socials.email} />
