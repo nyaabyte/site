@@ -51,6 +51,8 @@ const Hero: React.FC = () => {
               2000,
               "Go check out the rest of the site.",
               2000,
+              "Go click on Lyca's username :3.",
+              2000,
               "And now it's going to restart",
               2000,
             ]}
