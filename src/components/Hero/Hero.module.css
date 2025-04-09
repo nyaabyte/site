@@ -1,7 +1,8 @@
 .hero {
-  min-height: calc(
+  /* min-height: calc(
     100vh - 60px
-  ); /* Adjust 60px if your header height changed */
+  ); Adjust 60px if your header height changed */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,7 +91,7 @@
   min-height: 3em; /* Ensure space for the animation */
 }
 
-.typeAnimationWrapper span[data-testid='react-type-animation-wrapper'] span {
+.typeAnimationWrapper span[data-testid="react-type-animation-wrapper"] span {
   color: var(--secondary-pink);
 }
 

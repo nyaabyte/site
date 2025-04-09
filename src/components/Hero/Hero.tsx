@@ -100,7 +100,9 @@ const Hero: React.FC = () => {
             }}
           />
         </div>
-        <p className={styles.subtitle}>Just some silly people</p>
+        <p className={styles.subtitle}>
+          We are just some silly people doing silly things
+        </p>
         <button onClick={handleScrollToProjects} className={styles.ctaButton}>
           Explore Projects
         </button>
