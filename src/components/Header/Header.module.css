@@ -44,15 +44,16 @@
   gap: 1.5rem;
 }
 
-.nav a {
+.link {
   color: var(--text-light);
   font-weight: 500;
   padding: 0.5rem 0;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
-.nav a::after {
+.link::after {
   content: "";
   position: absolute;
   bottom: 0;

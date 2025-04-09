@@ -1,28 +1,28 @@
 import { useState, useEffect } from "react";
 import styles from "./Header.module.css";
 import logoSrc from "/src/assets/logo.png";
+import { Link } from "react-scroll";
 
 const Header = () => {
-  const [scrolled, setScrolled] = useState(false);
+  const [scrolled, setScrolled] = useState(true);
 
   const handleScroll = () => {
-    // Check if the user has scrolled down from the top of the page
     if (window.scrollY > 0) {
-      setScrolled(false); // If scrolled, show the header
+      setScrolled(false);
     } else {
-      setScrolled(true); // If at the top, hide the header
+      setScrolled(true);
     }
   };
 
-  // Listen for scroll events
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
-    // Clean up the event listener when the component is unmounted
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  // handleScroll();
 
   return (
     <header
@@ -30,24 +30,55 @@ const Header = () => {
       className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}
     >
       <div className={styles.container}>
-        <a href="#top">
+        <Link to="top" smooth={true} duration={500} className={styles.link}>
           <div className={styles.logo}>
             <img src={logoSrc} alt="NyaByte Logo" />
           </div>
-        </a>
+        </Link>
         <nav className={styles.nav}>
           <ul>
             <li>
-              <a href="#about">About</a>
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                offset={-60}
+                className={styles.link}
+              >
+                About
+              </Link>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <Link
+                to="projects"
+                smooth={true}
+                duration={500}
+                offset={-60}
+                className={styles.link}
+              >
+                Projects
+              </Link>
             </li>
             <li>
-              <a href="#members">Members</a>
+              <Link
+                to="members"
+                smooth={true}
+                duration={500}
+                offset={-60}
+                className={styles.link}
+              >
+                Members
+              </Link>
             </li>
             <li>
-              <a href="#contact">Contacts</a>
+              <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className={styles.link}
+              >
+                Contacts
+              </Link>
             </li>
           </ul>
         </nav>

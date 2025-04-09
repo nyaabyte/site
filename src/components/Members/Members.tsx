@@ -38,11 +38,6 @@ const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
   let iconChar = "?";
   let label = "Link";
   switch (type) {
-    case "github":
-      iconChar = "💻";
-      label = "GitHub";
-
-      break;
     case "email":
       iconChar = "✉️";
       label = "Email";
