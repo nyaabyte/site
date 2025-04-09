@@ -128,6 +128,7 @@
   opacity: 0.7;
   font-size: 1.5rem;
   transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
+  /* width: 1.5rem; */
 }
 
 .socialLink:hover {
@@ -138,4 +139,10 @@
 
 .iconPlaceholder {
   display: inline-block;
+  width: 1.75rem;
+  /* transform: translate(50%, 50%) */
+}
+
+.socialLink > img {
+  transform: translatey(20%);
 }
