@@ -75,6 +75,9 @@ const Members = () => {
                   {member.socials.website && (
                     <SocialIcon type="website" url={member.socials.website} />
                   )}
+                  {member.socials.signal && (
+                    <SocialIcon type="signal" url={member.socials.signal} />
+                  )}
                 </div>
               </div>
             </div>
