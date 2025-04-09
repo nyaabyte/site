@@ -179,6 +179,8 @@ const Member = (props: {
       </style>
       <canvas id="orgasm" style="z-index: 9999; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></canvas>
       <img id="bustImage" src="https://lycanea.dev/avatar.png" style="text-align: center;font-size: 200px;animation: bust 1s infinite;"/>
+      <img id="zastix" src="https://zastix.club/pfp.png" style="text-align: center;position: absolute;right: 100;width: 400;">
+      <img id="wurdle" src="https://images.wurdle.eu/wurdleturtle.png" style="text-align: center;font-size: 200px;position: absolute;left: 0;bottom: 0;width: 100;transform: rotate(350deg);">
     `);
     document.close();
 
