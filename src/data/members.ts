@@ -110,7 +110,7 @@ export const sampleMembers: Member[] = [
     id: 8,
     name: "dotle31",
     pronouns: "she/they",
-    role: "cum everywhererer",
+    role: "silly everywhererer",
     imageUrl: "https://cdn.discordapp.com/avatars/1197702222893547590/63e5a4fbec14f9af767ad2fff1e72088.png?size=1024&format=png",
     bio: "bad girl, silly, stupid and cant write goog code",
     socials: {
