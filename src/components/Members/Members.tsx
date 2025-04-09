@@ -34,6 +34,46 @@ const SocialIconImage: React.FC<{ type: string; url: string }> = ({
   );
 };
 
+const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
+  let iconChar = "?";
+  let label = "Link";
+  switch (type) {
+    case "github":
+      iconChar = "💻";
+      label = "GitHub";
+
+      break;
+    case "email":
+      iconChar = "✉️";
+      label = "Email";
+
+      break;
+    case "website":
+      iconChar = "🌐";
+      label = "Website";
+
+      break;
+    case "signal":
+      iconChar = "💬";
+      label = "Signal";
+
+      break;
+  }
+
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={styles.socialLink}
+      aria-label={`${label} profile`}
+      title={label}
+    >
+      <span className={styles.iconPlaceholder}>{iconChar}</span>
+    </a>
+  );
+};
+
 const Member = (props: {
   member: Member;
 }) => {
@@ -173,13 +213,13 @@ const Member = (props: {
           <SocialIconImage type="github" url={socials.github} />
         )}
         {socials.email && (
-          <SocialIconImage type="email" url={socials.email} />
+          <SocialIcon type="email" url={socials.email} />
         )}
         {socials.website && (
-          <SocialIconImage type="website" url={socials.website} />
+          <SocialIcon type="website" url={socials.website} />
         )}
         {socials.signal && (
-          <SocialIconImage type="signal" url={socials.signal} />
+          <SocialIcon type="signal" url={socials.signal} />
         )}
       </div>
     </div>
