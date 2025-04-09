@@ -10,11 +10,6 @@ const SocialIcon: React.FC<{ type: string; url: string }> = ({ type, url }) => {
   let iconChar = "?";
   let label = "Link";
   switch (type) {
-    case "github":
-      iconChar = "💻";
-      label = "GitHub";
-
-      break;
     case "email":
       iconChar = "✉️";
       label = "Email";
@@ -99,10 +94,7 @@ const Members = () => {
                 <p className={styles.cardBio}>{member.bio}</p>
                 <div className={styles.socials}>
                   {member.socials.github && (
-                    <SocialIconImage
-                      type="github"
-                      url={member.socials.github}
-                    />
+                    <SocialIcon type="github" url={member.socials.github} />
                   )}
                   {member.socials.email && (
                     <SocialIcon type="email" url={member.socials.email} />
