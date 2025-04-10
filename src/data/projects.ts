@@ -1,3 +1,7 @@
+import dasImage from "/src/assets/das_ss.png";
+import nyabyteImage from "/src/assets/nyabyte_ss.png";
+import noImage from "/src/assets/no_ss.png";
+
 export interface Project {
   id: number;
   title: string;
@@ -14,7 +18,7 @@ export const sampleProjects: Project[] = [
     title: "NyaByte.dev",
     description:
       "This site! Pretty self explanatory. Site created by Wurdle, logo created by Tomcat! Feel free to suggest changes or make them yourself on the github :3",
-    imageUrl: "https://cdn.nyabyte.dev/nyabyte.png",
+    imageUrl: nyabyteImage,
     tags: ["React", "Typescript", "Vite"],
     liveUrl: "https://nyabyte.dev",
     repoUrl: "https://github.com/nyaabyte/site",
@@ -24,8 +28,17 @@ export const sampleProjects: Project[] = [
     title: "MeowNet",
     description:
       "A new social media service built from the ground up for web and mobile.",
-    imageUrl: "https://cdn.nyabyte.dev/nyabyte.png",
+    imageUrl: noImage,
     tags: ["TypeScript", "Expo", "React Native", "Svelte", "MongoDB"],
     repoUrl: "https://github.com/nyaabyte/meownet",
+  },
+  {
+    id: 3,
+    title: "DAS",
+    description:
+      "A custom Discord web client for using Discord while it is blocked.",
+    imageUrl: dasImage,
+    tags: ["JavaScript", "Discord.JS", "Websockets", "HTML"],
+    repoUrl: "https://github.com/nyaabyte/das",
   },
 ];
