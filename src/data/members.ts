@@ -116,7 +116,7 @@ export const sampleMembers: Member[] = [
     bio: "bad girl, silly, stupid and cant write goog code",
     socials: {
       github: "https://github.com/doyle31",
-      website: "https://dotle31.com",
+      website: "https://doyle31.com",
       signal:
         "https://signal.me/#eu/1Z80joyD9Vh7LI1m41BSjvelAf-nyWkq_5FC62P16Mtud86BEn9NB7ceq5ZP09Xw",
     },
@@ -128,8 +128,6 @@ export const sampleMembers: Member[] = [
     role: "The Human",
     imageUrl: "https://cdn.nyabyte.dev/Altie.png",
     bio: "I have no fucking clue how to code, but I'm here. I guess I can game well and draw decentish so theres that :3",
-    socials: {
-      website: "https://dotle31.com",
-    },
+    socials: {},
   },
 ];
