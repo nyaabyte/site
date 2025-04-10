@@ -25,6 +25,8 @@ export const typingData = [
   2000,
   "Coding is based",
   2000,
+  "cat is a good girl :3",
+  2000,
   "Be gay do crime",
   2000,
   "I know what you are",
