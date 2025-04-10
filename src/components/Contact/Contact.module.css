@@ -27,7 +27,7 @@
 }
 
 .container h2::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -77,7 +77,7 @@
 }
 
 .contactCard::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;

@@ -75,6 +75,7 @@ const Header = () => {
                 to="contact"
                 smooth={true}
                 duration={500}
+                offset={-60}
                 className={styles.link}
               >
                 Contacts
