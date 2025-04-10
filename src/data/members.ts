@@ -61,7 +61,7 @@ export const sampleMembers: Member[] = [
     id: 4,
     name: "zastix",
     role: "Reverse Engineer",
-    pronouns: "she/her",
+    pronouns: "She/Her",
     imageUrl: "https://zastix.club/pfp.png",
     bio: '"horrible" reverse engineer, programmer, c++ and typescript enjoyer. silly trans girl. :3',
     socials: {
@@ -73,9 +73,9 @@ export const sampleMembers: Member[] = [
   {
     id: 5,
     name: "geodebreaker",
-    pronouns: "he/him",
+    pronouns: "He/Him",
     role: "progmarmin",
-    imageUrl: "https://evrtdg.com/src/emoji/goober.jpg",
+    imageUrl: "https://cdn.nyabyte.dev/gb.png",
     bio: "porfesnil porgamming",
     socials: {
       github: "https://github.com/geodebreaker",
@@ -84,8 +84,8 @@ export const sampleMembers: Member[] = [
   },
   {
     id: 6,
-    name: "hanna",
-    pronouns: "she/her",
+    name: "Hanna",
+    pronouns: "She/Her",
     role: "Reinventor of Wheels",
     imageUrl: "https://cdn.nyabyte.dev/hannah.png",
     bio: "idiot girl obsessed with low level programming and binary exploitation",
@@ -96,7 +96,7 @@ export const sampleMembers: Member[] = [
   {
     id: 7,
     name: "Digi",
-    pronouns: "she/her",
+    pronouns: "She/Her",
     role: ":3 wrangler",
     imageUrl: "https://cdn.digitaldragon.dev/digi-pfp.jpg",
     bio: "dragon-shaped robot, bad programmer, who is interested in technology, archiving, dragons",
@@ -109,7 +109,7 @@ export const sampleMembers: Member[] = [
   {
     id: 8,
     name: "dotle31",
-    pronouns: "she/they",
+    pronouns: "She/They",
     role: "silly catgirl go meow all over you",
     imageUrl:
       "https://cdn.discordapp.com/avatars/1197702222893547590/63e5a4fbec14f9af767ad2fff1e72088.png?size=1024&format=png",
@@ -133,7 +133,7 @@ export const sampleMembers: Member[] = [
   {
     id: 10,
     name: "Banjo",
-    pronouns: "she/her",
+    pronouns: "She/Her",
     role: "Emotional Support Part 2",
     imageUrl:
       "https://cdn.discordapp.com/avatars/1268761960506200065/0d3e4860fa6b777ecfb5427649bbdf1d.png?size=1024",
