@@ -2,7 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import styles from "./Hero.module.css";
 import { Link } from "react-scroll";
-import { typingData } from "/src/data/typing.ts";
+import { typingData } from "../../data/typing.ts";
 // Import the logo image
 import logoSrc from "/src/assets/logo.png"; // Adjust path if necessary
 
