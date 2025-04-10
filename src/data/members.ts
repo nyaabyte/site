@@ -48,7 +48,7 @@ export const sampleMembers: Member[] = [
     id: 3,
     name: "Lycanea",
     pronouns: "Any/All",
-    role: "Emotional support",
+    role: "downgraded to bember",
     imageUrl: "https://lycanea.dev/avatar.png",
     bio: "the silly backend nerd, (very cute - zas)",
     socials: {
