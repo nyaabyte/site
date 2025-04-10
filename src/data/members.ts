@@ -130,4 +130,14 @@ export const sampleMembers: Member[] = [
     bio: "I have no fucking clue how to code, but I'm here. I guess I can game well and draw decentish so theres that :3",
     socials: {},
   },
+  {
+    id: 10,
+    name: "Banjo",
+    pronouns: "she/her",
+    role: "Emotional Support Part 2",
+    imageUrl:
+      "https://cdn.discordapp.com/avatars/1268761960506200065/0d3e4860fa6b777ecfb5427649bbdf1d.png?size=1024",
+    bio: "creator of music",
+    socials: {},
+  },
 ];
