@@ -22,7 +22,7 @@ export const sampleProjects: Project[] = [
     tags: ["React", "Typescript", "Vite"],
     liveUrl: "https://nyabyte.dev",
     repoUrl: "https://github.com/nyaabyte/site",
-  }
+  },
   {
     id: 3,
     title: "DAS",
