@@ -22,16 +22,7 @@ export const sampleProjects: Project[] = [
     tags: ["React", "Typescript", "Vite"],
     liveUrl: "https://nyabyte.dev",
     repoUrl: "https://github.com/nyaabyte/site",
-  },
-  {
-    id: 2,
-    title: "MeowNet",
-    description:
-      "A new social media service built from the ground up for web and mobile.",
-    imageUrl: noImage,
-    tags: ["TypeScript", "Expo", "React Native", "Svelte", "MongoDB"],
-    repoUrl: "https://github.com/nyaabyte/meownet",
-  },
+  }
   {
     id: 3,
     title: "DAS",
