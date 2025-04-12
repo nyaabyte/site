@@ -1,6 +1,5 @@
-import dasImage from "/src/assets/das_ss.png";
 import nyabyteImage from "/src/assets/nyabyte_ss.png";
-// import noImage from "/src/assets/no_ss.png";
+import noImage from "/src/assets/no_ss.png";
 
 export interface Project {
   id: number;
@@ -25,11 +24,11 @@ export const sampleProjects: Project[] = [
   },
   {
     id: 3,
-    title: "DAS",
+    title: "MeowNet",
     description:
-      "A custom Discord web client for using Discord while it is blocked.",
-    imageUrl: dasImage,
-    tags: ["JavaScript", "Discord.JS", "Websockets", "HTML"],
-    repoUrl: "https://github.com/nyaabyte/das",
+      "Unfinished social media. will be linked once done",
+    imageUrl: noImage,
+    tags: ["JavaScript", "TypeScript", "Svelte", "React Native", "Vite", "Expo"],
+    // repoUrl: "https://github.com/nyaabyte/das",
   },
 ];
