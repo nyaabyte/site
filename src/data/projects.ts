@@ -1,6 +1,6 @@
 import dasImage from "/src/assets/das_ss.png";
 import nyabyteImage from "/src/assets/nyabyte_ss.png";
-import noImage from "/src/assets/no_ss.png";
+// import noImage from "/src/assets/no_ss.png";
 
 export interface Project {
   id: number;
