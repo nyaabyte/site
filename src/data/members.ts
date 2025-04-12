@@ -23,7 +23,7 @@ export const sampleMembers: Member[] = [
     name: "Wurdle",
     pronouns: "He/Him",
     role: "Frontend Design",
-    imageUrl: "https://images.wurdle.eu/wurdleturtle.png",
+    imageUrl: "https://images.wurdle.eu/wurdlereal.png",
     bio: "Little bit of a dumbass, just like to have some fun. My dms are always open if anyone wants to talk!",
     socials: {
       github: "https://github.com/wurdleturtle",
