@@ -140,4 +140,16 @@ export const sampleMembers: Member[] = [
     bio: "creator of music",
     socials: {},
   },
+  {
+    id: 11,
+    name: "Cat",
+    pronouns: "She/Her",
+    role: "professional meower",
+    imageUrl:
+      "https://lycanea.dev/cat.png",
+    bio: "write silly message thingies",
+    socials: {
+      website: "https://www.tumblr.com/cat-tenyx"
+    },
+  },
 ];
