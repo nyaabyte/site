@@ -73,7 +73,6 @@ export const sampleMembers: Member[] = [
   {
     id: 5,
     name: "geodebreaker",
-    pronouns: "He/Him",
     role: "progmarmin",
     imageUrl: "https://cdn.nyabyte.dev/gb.png",
     bio: "porfesnil porgamming",
@@ -145,11 +144,10 @@ export const sampleMembers: Member[] = [
     name: "Cat",
     pronouns: "She/Her",
     role: "professional meower",
-    imageUrl:
-      "https://lycanea.dev/cat.png",
+    imageUrl: "https://lycanea.dev/cat.png",
     bio: "write silly message thingies",
     socials: {
-      website: "https://www.tumblr.com/cat-tenyx"
+      website: "https://www.tumblr.com/cat-tenyx",
     },
   },
 ];
