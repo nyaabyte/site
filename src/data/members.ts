@@ -150,4 +150,16 @@ export const sampleMembers: Member[] = [
       website: "https://www.tumblr.com/cat-tenyx",
     },
   },
+  {
+    id: 12,
+    name: "Calico",
+    pronouns: "They/Them",
+    role: "Helper Person",
+    imageUrl:
+      "https://cdn.discordapp.com/avatars/1359672732375060480/2d65d0fd081ea346448d3f6e3eb44b95.webp?size=1024",
+    bio: "A French/American idiot who likes to hang out, and enjoys learning JavaScript.",
+    socials: {
+      github: "https://github.com/forestofcalicos",
+    },
+  },
 ];
