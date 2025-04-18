@@ -225,7 +225,7 @@ const Member = (props: { member: Member }) => {
           {name}
         </h3>
         <p className={styles.cardRole}>
-          {role} ● {pronouns}
+          {role} {pronouns ? "●" : ""} {pronouns}
         </p>
         <p className={styles.cardBio}>{bio}</p>
         <div className={styles.socials}>
