@@ -111,7 +111,7 @@ export const sampleMembers: Member[] = [
     pronouns: "She/They",
     role: "silly catgirl go meow all over you",
     imageUrl:
-      "https://cdn.discordapp.com/avatars/1197702222893547590/63e5a4fbec14f9af767ad2fff1e72088.png?size=1024&format=png",
+      "https://doyle31.com/ico/dotle31img.png",
     bio: "bad girl, silly, stupid and cant write goog code",
     socials: {
       github: "https://github.com/doyle31",
@@ -126,7 +126,7 @@ export const sampleMembers: Member[] = [
     pronouns: "She/Her",
     role: "The Human",
     imageUrl: "https://cdn.nyabyte.dev/Altie.png",
-    bio: "I have no fucking clue how to code, but I'm here. I guess I can game well and draw decentish so theres that :3",
+    bio: "I have no fucking clue how to code, but I'm here. I guess I can game well and draw decentish so theres that :3 also they is vverry cute >w<",
     socials: {},
   },
   {
