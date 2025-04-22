@@ -1,21 +1,11 @@
-import React from "react";
-import { TypeAnimation } from "react-type-animation";
-import styles from "./Hero.module.css";
-import { Link } from "react-scroll";
-import { typingData } from "../../data/typing.ts";
-// Import the logo image
-import logoSrc from "/src/assets/logo.png"; // Adjust path if necessary
+import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
+import styles from './Hero.module.css';
+import { Link } from 'react-scroll';
+import { typingData } from '../../data/typing.ts';
+import logoSrc from '/src/assets/logo.png';
 
 const Hero: React.FC = () => {
-  // const handleScrollToProjects = () => {
-  //   const projectsSection = document.getElementById("projects");
-  //   if (projectsSection) {
-  //     projectsSection.scrollIntoView({ behavior: "smooth", block: "start" });
-  //   } else {
-  //     console.warn("Element with id 'projects' not found.");
-  //   }1
-  // };
-
   return (
     <section id="top" className={styles.hero}>
       <div className={styles.overlay}></div>
@@ -31,9 +21,9 @@ const Hero: React.FC = () => {
             cursor={true}
             repeat={Infinity}
             style={{
-              fontSize: "2em",
-              display: "inline-block",
-              fontFamily: "var(--font-code)",
+              fontSize: '2em',
+              display: 'inline-block',
+              fontFamily: 'var(--font-code)',
             }}
           />
         </div>
