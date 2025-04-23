@@ -112,7 +112,7 @@ export const sampleMembers: Member[] = [
     role: "silly catgirl go meow all over you",
     imageUrl:
       "https://doyle31.com/ico/dotle31img.png",
-    bio: "bad girl, silly, stupid and cant write goog code",
+    bio: "bad girl, silly, stupid and cant write goog code >w<",
     socials: {
       github: "https://github.com/doyle31",
       website: "https://doyle31.com",
