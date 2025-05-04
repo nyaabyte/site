@@ -1,107 +1,107 @@
 .hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  background: linear-gradient(
-      var(--gradient-angle),
-      rgba(26, 26, 29, 0.8),
-      rgba(42, 42, 45, 0.9)
-    ),
-    linear-gradient(
-      var(--gradient-angle),
-      var(--primary-pink),
-      var(--accent-purple),
-      var(--accent-blue)
-    );
-  background-size: 200% 200%;
-  animation: gradientShift 15s ease infinite;
-  color: var(--text-light);
-  padding: 4rem 2rem;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	background: linear-gradient(
+			var(--gradient-angle),
+			rgba(26, 26, 29, 0.8),
+			rgba(42, 42, 45, 0.9)
+		),
+		linear-gradient(
+			var(--gradient-angle),
+			var(--primary-pink),
+			var(--accent-purple),
+			var(--accent-blue)
+		);
+	background-size: 200% 200%;
+	animation: gradientShift 15s ease infinite;
+	color: var(--text-light);
+	padding: 4rem 2rem;
 }
 
 @keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
 }
 
 .content {
-  position: relative;
-  z-index: 2;
-  max-width: 800px;
+	position: relative;
+	z-index: 2;
+	max-width: 800px;
 }
 
 .title {
-  font-size: 3.5rem;
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-  text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+	font-size: 3.5rem;
+	margin-bottom: 0.5rem;
+	font-weight: 700;
+	text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 0.5rem;
 }
 
 .heroLogo {
-  height: 10.5rem;
-  width: auto;
-  filter: drop-shadow(0 0 8px var(--primary-pink));
+	height: 10.5rem;
+	width: auto;
+	filter: drop-shadow(0 0 8px var(--primary-pink));
 
-  position: relative;
+	position: relative;
 
-  top: 10px;
+	top: 10px;
 }
 
 .typeAnimationWrapper {
-  margin: 1.5rem 0;
-  min-height: 3em;
+	margin: 1.5rem 0;
+	min-height: 3em;
 }
 
 .typeAnimationWrapper span[data-testid='react-type-animation-wrapper'] span {
-  color: var(--secondary-pink);
+	color: var(--secondary-pink);
 }
 
 .subtitle {
-  font-size: 1.3rem;
-  margin-bottom: 2rem;
-  color: var(--text-light);
-  opacity: 0.9;
+	font-size: 1.3rem;
+	margin-bottom: 2rem;
+	color: var(--text-light);
+	opacity: 0.9;
 }
 
 .ctaButton {
-  background: linear-gradient(
-    var(--gradient-angle),
-    var(--primary-pink),
-    var(--accent-purple)
-  );
-  color: var(--text-light);
-  font-weight: 600;
-  padding: 1rem 2.5rem;
-  font-size: 1.1rem;
-  border-radius: 50px;
-  box-shadow: 0 5px 15px var(--glow-color);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+	background: linear-gradient(
+		var(--gradient-angle),
+		var(--primary-pink),
+		var(--accent-purple)
+	);
+	color: var(--text-light);
+	font-weight: 600;
+	padding: 1rem 2.5rem;
+	font-size: 1.1rem;
+	border-radius: 50px;
+	box-shadow: 0 5px 15px var(--glow-color);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .ctaButton:hover {
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 8px 25px var(--glow-color);
+	transform: translateY(-3px) scale(1.05);
+	box-shadow: 0 8px 25px var(--glow-color);
 }
