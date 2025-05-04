@@ -1,152 +1,152 @@
 .projects {
-	background-color: var(--background-dark);
-	padding: 4rem 2rem;
-	border-top: 1px solid var(--background-light-tint);
+  background-color: var(--background-dark);
+  padding: 4rem 2rem;
+  border-top: 1px solid var(--background-light-tint);
 }
 
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
-	text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .container h2 {
-	font-size: 2.5rem;
-	margin-bottom: 1rem;
-	position: relative;
-	display: inline-block;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  display: inline-block;
 }
 
 .container h2::after {
-	content: '';
-	position: absolute;
-	bottom: -10px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 60px;
-	height: 4px;
-	background: linear-gradient(90deg, var(--primary-pink), var(--accent-purple));
-	border-radius: 2px;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-pink), var(--accent-purple));
+  border-radius: 2px;
 }
 
 .highlight {
-	color: var(--primary-pink);
+  color: var(--primary-pink);
 }
 
 .intro {
-	font-size: 1.1rem;
-	color: var(--text-light);
-	opacity: 0.8;
-	margin-bottom: 3rem;
-	max-width: 600px;
-	margin-left: auto;
-	margin-right: auto;
+  font-size: 1.1rem;
+  color: var(--text-light);
+  opacity: 0.8;
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	gap: 2rem;
-	text-align: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  text-align: left;
 }
 
 .card {
-	background-color: rgba(255, 255, 255, 0.03);
-	border-radius: 10px;
-	overflow: hidden;
-	border: 1px solid var(--background-light-tint);
-	display: flex;
-	flex-direction: column;
-	transition: transform 0.3s ease, box-shadow 0.3s ease;
-	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--background-light-tint);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
-	transform: translateY(-5px) scale(1.02);
-	box-shadow: 0 8px 25px var(--glow-color);
-	border-color: var(--primary-pink);
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 25px var(--glow-color);
+  border-color: var(--primary-pink);
 }
 
 .cardImage {
-	width: 100%;
-	height: 180px;
-	object-fit: cover;
-	display: block;
-	border-bottom: 1px solid var(--background-light-tint);
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid var(--background-light-tint);
 }
 
 .cardContent {
-	padding: 1.5rem;
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .cardTitle {
-	font-size: 1.5rem;
-	color: var(--secondary-pink);
-	margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+  color: var(--secondary-pink);
+  margin-bottom: 0.75rem;
 }
 
 .cardDescription {
-	font-size: 0.95rem;
-	color: var(--text-light);
-	opacity: 0.85;
-	line-height: 1.6;
-	margin-bottom: 1rem;
-	flex-grow: 1;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  opacity: 0.85;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  flex-grow: 1;
 }
 
 .tags {
-	margin-bottom: 1rem;
-	display: flex;
-	flex-wrap: wrap;
-	gap: 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .tag {
-	background-color: var(--accent-purple);
-	color: var(--text-light);
-	padding: 0.25rem 0.6rem;
-	border-radius: 15px;
-	font-size: 0.8rem;
-	font-weight: 500;
+  background-color: var(--accent-purple);
+  color: var(--text-light);
+  padding: 0.25rem 0.6rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
 .tag:nth-child(2n) {
-	background-color: var(--accent-blue);
-	color: var(--text-dark);
+  background-color: var(--accent-blue);
+  color: var(--text-dark);
 }
 
 .links {
-	display: flex;
-	gap: 1rem;
-	margin-top: auto;
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
 }
 
 .linkButton {
-	display: inline-block;
-	padding: 0.5rem 1rem;
-	border-radius: 5px;
-	background-color: var(--primary-pink);
-	color: var(--text-light);
-	font-weight: 500;
-	font-size: 0.9rem;
-	text-align: center;
-	transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: var(--primary-pink);
+  color: var(--text-light);
+  font-weight: 500;
+  font-size: 0.9rem;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .linkButton:hover {
-	background-color: var(--secondary-pink);
-	color: var(--text-dark);
-	transform: scale(1.05);
+  background-color: var(--secondary-pink);
+  color: var(--text-dark);
+  transform: scale(1.05);
 }
 
 .liveLink {
-	background-color: var(--accent-blue);
-	color: var(--text-dark);
+  background-color: var(--accent-blue);
+  color: var(--text-dark);
 }
 
 .liveLink:hover {
-	background-color: #a0e0f8;
+  background-color: #a0e0f8;
 }
