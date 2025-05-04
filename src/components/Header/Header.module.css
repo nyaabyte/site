@@ -1,75 +1,75 @@
 .header {
-	background-color: rgba(26, 26, 29, 0.85);
-	padding: 1rem 2rem;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 100;
-	backdrop-filter: blur(10px);
-	border-bottom: 1px solid var(--background-light-tint);
-	opacity: 1;
-	transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  background-color: rgba(26, 26, 29, 0.85);
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--background-light-tint);
+  opacity: 1;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 }
 
 .header.scrolled {
-	opacity: 0;
-	transform: translateY(-100%);
+  opacity: 0;
+  transform: translateY(-100%);
 }
 
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
-	display: flex;
-	align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-	height: 100px;
-	width: auto;
-	display: block;
-	margin-top: -15px;
-	margin-bottom: -35px;
+  height: 100px;
+  width: auto;
+  display: block;
+  margin-top: -15px;
+  margin-bottom: -35px;
 }
 
 .nav ul {
-	list-style: none;
-	display: flex;
-	gap: 1.5rem;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .link {
-	color: var(--text-light);
-	font-weight: 500;
-	padding: 0.5rem 0;
-	position: relative;
-	overflow: hidden;
-	cursor: pointer;
+  color: var(--text-light);
+  font-weight: 500;
+  padding: 0.5rem 0;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .link::after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: -50%;
-	width: 100%;
-	height: 2px;
-	background: linear-gradient(90deg, var(--accent-blue), var(--primary-pink));
-	opacity: 0%;
-	transition: left 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--primary-pink));
+  opacity: 0%;
+  transition: left 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .nav a:hover {
-	color: var(--primary-pink);
+  color: var(--primary-pink);
 }
 
 .nav a:hover::after {
-	left: 0;
-	opacity: 100%;
+  left: 0;
+  opacity: 100%;
 }

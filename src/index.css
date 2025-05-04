@@ -1,38 +1,38 @@
 /* src/index.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 
 :root {
-	--primary-pink: #ff69b4;
-	--secondary-pink: #ffb6c1;
-	--accent-purple: #9370db;
-	--accent-blue: #87ceeb;
-	--text-light: #f8f8f8;
-	--text-dark: #2a2a2a;
-	--background-dark: #1a1a1d;
-	--background-light-tint: rgba(255, 255, 255, 0.05);
-	--font-primary: 'Itim', cursive;
-	--font-code: 'Fira Code', 'Courier New', monospace;
+  --primary-pink: #ff69b4;
+  --secondary-pink: #ffb6c1;
+  --accent-purple: #9370db;
+  --accent-blue: #87ceeb;
+  --text-light: #f8f8f8;
+  --text-dark: #2a2a2a;
+  --background-dark: #1a1a1d;
+  --background-light-tint: rgba(255, 255, 255, 0.05);
+  --font-primary: "Itim", cursive;
+  --font-code: "Fira Code", "Courier New", monospace;
 
-	--glow-color: rgba(255, 105, 180, 0.7);
-	--gradient-angle: 135deg;
+  --glow-color: rgba(255, 105, 180, 0.7);
+  --gradient-angle: 135deg;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: var(--font-primary);
-	background-color: var(--background-dark);
-	color: var(--text-light);
-	line-height: 1.6;
-	overflow-x: hidden;
+  font-family: var(--font-primary);
+  background-color: var(--background-dark);
+  color: var(--text-light);
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 
 h1,
@@ -41,33 +41,33 @@ h3,
 h4,
 h5,
 h6 {
-	line-height: 1.2;
-	margin-bottom: 1rem;
-	color: var(--primary-pink);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--primary-pink);
 }
 
 a {
-	color: var(--accent-blue);
-	text-decoration: none;
-	transition: color 0.3s ease;
+  color: var(--accent-blue);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-	color: var(--secondary-pink);
+  color: var(--secondary-pink);
 }
 
 button {
-	cursor: pointer;
-	font-family: inherit;
-	border: none;
-	border-radius: 5px;
-	padding: 0.8rem 1.5rem;
-	font-size: 1rem;
-	transition: background-color 0.3s ease, transform 0.2s ease,
-		box-shadow 0.3s ease;
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
 }
 
 section {
-	padding: 4rem 2rem;
-	overflow: hidden;
+  padding: 4rem 2rem;
+  overflow: hidden;
 }
