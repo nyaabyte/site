@@ -162,4 +162,17 @@ export const sampleMembers: Member[] = [
 			github: "https://github.com/forestofcalicos",
 		},
 	},
+	{
+		id: 13,
+		name: "Cuboid",
+		pronouns: "she/they",
+		role: "backend dev",
+		imageUrl:
+			"https://cdn.discordapp.com/avatars/475717122836660224/a_43a60bd236521d314bba8d74bd7c3b9e.gif?size=1024",
+		bio: "minecraft is pretty cool",
+		socials: {
+			github: "https://github.com/cueboid",
+			signal: "https://signal.me/#eu/KdXQ0F9LoIGPKHqC5H3tt4vD7j8SWlBT0nhOkYQOOgZ6fGMv0MZPM4w3MXCCzhuw",
+		}
+	}
 ];
