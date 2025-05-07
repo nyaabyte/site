@@ -174,5 +174,17 @@ export const sampleMembers: Member[] = [
 			github: "https://github.com/cueboid",
 			signal: "https://signal.me/#eu/KdXQ0F9LoIGPKHqC5H3tt4vD7j8SWlBT0nhOkYQOOgZ6fGMv0MZPM4w3MXCCzhuw",
 		}
+	},
+	{
+		id: 13,
+		name: "Eve",
+		pronouns: "she/her",
+		role: "Helper",
+		imageUrl: "https://raw.githubusercontent.com/Misfiy/Misfiy/refs/heads/main/pfp.jpg",
+		bio: "Just a girl trying to have fun",
+		socials: {
+			github: "https://github.com/Misfiy",
+			email: "contact@evestavern.com"
+		}
 	}
 ];
