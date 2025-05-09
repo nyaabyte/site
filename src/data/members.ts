@@ -36,7 +36,7 @@ export const sampleMembers: Member[] = [
 		name: "tomcat",
 		pronouns: "She/Her",
 		role: "Discord Bot Dev",
-		imageUrl: "https://cdn.tomcat.sh/images/pfp.png",
+		imageUrl: "https://cdn.tomcat.sh/images/animated/pfp.gif",
 		bio: "i'm a self-taught transfem discord bot dev who also does some other stuff, which you can see on my site.",
 		socials: {
 			github: "https://git.tomcat.sh",
