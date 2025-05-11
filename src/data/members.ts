@@ -176,7 +176,7 @@ export const sampleMembers: Member[] = [
 		}
 	},
 	{
-		id: 13,
+		id: 14,
 		name: "Eve",
 		pronouns: "she/her",
 		role: "Helper",
@@ -185,6 +185,17 @@ export const sampleMembers: Member[] = [
 		socials: {
 			github: "https://github.com/Misfiy",
 			email: "contact@evestavern.com"
+		}
+	},
+	{
+		id: 15,
+		name: "Zilver",
+		pronouns: "He/They",
+		role: "Helper",
+		imageUrl: "https://cdn.nyabyte.dev/zilver.png",
+		bio: "Fucking Dumbass Idiot Guy",
+		socials: {
+			website: "https://zilver.gay/"
 		}
 	}
 ];
