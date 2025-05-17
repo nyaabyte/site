@@ -197,5 +197,16 @@ export const sampleMembers: Member[] = [
 		socials: {
 			website: "https://zilver.gay/"
 		}
+	},
+	{
+		id: 16,
+		name: "Pipari",
+		pronouns: "He/Him",
+		role: "Dumbass",
+		imageUrl: "https://cdn.nyabyte.dev/pipari.png",
+		bio: "Fucking Dumbass Idiot Guy x2",
+		socials: {
+			website: "https://pipari.site/"
+		}
 	}
 ];
