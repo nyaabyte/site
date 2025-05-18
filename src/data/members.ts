@@ -19,19 +19,6 @@ export interface Member {
 
 export const sampleMembers: Member[] = [
 	{
-		id: 1,
-		name: "Wurdle",
-		pronouns: "He/Him",
-		role: "Frontend Design",
-		imageUrl: "https://images.wurdle.eu/wurdleturtle.png",
-		bio: "Little bit of a dumbass, just like to have some fun. My dms are always open if anyone wants to talk!",
-		socials: {
-			github: "https://github.com/wurdleturtle",
-			email: "mailto:wurdle@wurdle.eu",
-			website: "https://wurdle.eu",
-		},
-	},
-	{
 		id: 2,
 		name: "tomcat",
 		pronouns: "She/Her",
