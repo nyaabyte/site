@@ -155,7 +155,7 @@ export const sampleMembers: Member[] = [
 		pronouns: "she/they",
 		role: "backend dev",
 		imageUrl:
-			"https://cdn.discordapp.com/avatars/475717122836660224/a_721b1dacbd54cf9492ab3920130f7ea0.gif?size=1024",
+			"https://avatars.githubusercontent.com/u/216430501",
 		bio: "minecraft is pretty cool",
 		socials: {
 			github: "https://github.com/cueboid",
