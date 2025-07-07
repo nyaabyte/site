@@ -58,17 +58,6 @@ export const sampleMembers: Member[] = [
 		},
 	},
 	{
-		id: 5,
-		name: "geodebreaker",
-		role: "progmarmin",
-		imageUrl: "https://cdn.nyabyte.dev/gb.png",
-		bio: "porfesnil porgamming",
-		socials: {
-			github: "https://github.com/geodebreaker",
-			website: "https://geodebreaker.github.io/",
-		},
-	},
-	{
 		id: 6,
 		name: "Hanna",
 		pronouns: "She/Her",
